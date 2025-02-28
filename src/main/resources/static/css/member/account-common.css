@@ -1,5 +1,10 @@
 @font-face {
-    /
+    font-family: Jumpit;
+    src: url("/fonts/member/ff840cfebfb63b0c-s.p.woff2");
+}
+
+* {
+    font-family: Jumpit;
 }
 html, body, header, nav, aside, main, article, section, footer, h1, h2, h3, h4, ul, ol, li, dl, dt, dd, p, pre, em, address, blockquote, q, form, fieldset, input, textarea, select, button, iframe {
     margin: 0px;
