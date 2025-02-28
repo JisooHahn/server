@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>로그인 - 사람인</title>
-    <link rel="stylesheet" href="../../static/css/login/loginPageCSS.css" />
-    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/login/loginPageCSS.css"/>
+    <link rel="shortcut icon" href="" type="image/x-icon"/>
   </head>
+
   <body>
     <header id="sri_header" class="integrated_header">
       <div class="area_logo">
@@ -343,11 +344,10 @@
                       </svg>
                       아이디로 사람인 기업계정 통합
                     </a>
-
+                    <!-- 기업회원 가입a태그 -->
                     <a
-                      href="javascript:void(0)"
+                      href="/login/company-register"
                       id="company_join"
-                      data-reg_link="/zf_user/member/registration/join?referer=https%3A%2F%2Fjumpit.saramin.co.kr%2F%3Fintegrated%3Dtrue"
                       class="BtnType BlueInvert SizeL"
                       onmousedown="try{n_trackEvent('login', 'pc_login_page' , 'join', '');}catch(e){}"
                       >기업 통합회원 가입</a
@@ -600,5 +600,5 @@
       </div>
     </footer>
   </body>
-  <script src="../../static/js/login/loginPage.js"></script>
+  <script src="/js/login/member-login.js"></script>
 </html>
