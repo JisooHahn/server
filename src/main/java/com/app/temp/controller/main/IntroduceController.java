@@ -6,11 +6,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/main/*")
+@RequestMapping("/intro/*")
 @Slf4j
-public class MainPageController {
+public class IntroduceController {
 
-    @GetMapping("introduce")
-    public void introduce() {
+    @GetMapping("/")
+    public String introduce() {
+        return "main/introduce";
     }
 }

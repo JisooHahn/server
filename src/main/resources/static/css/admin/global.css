@@ -9,7 +9,7 @@
 /* 폰트 설정 */
 @font-face {
   font-family: pretendard;
-  src: url(../../fonts/admin/Pretendard-Medium.subset-Y06xfiVw.woff2);
+  src: url(/fonts/admin/Pretendard-Medium.subset-Y06xfiVw.woff2);
 }
 
 /* 기본 body 스타일 */
